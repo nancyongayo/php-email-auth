@@ -1,7 +1,5 @@
 <?php
 require_once __DIR__ . '/../config/db.php';
-
-// Load Composer's autoloader from the project root (installed earlier with composer require)
 require __DIR__ . '/../vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
